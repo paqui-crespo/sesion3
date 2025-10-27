@@ -19,6 +19,9 @@
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             size: 30px;
         }
+        .img-gif{
+            animation: perrito.gif 2s infinite;
+                   }
     
     </style>
 </head>
@@ -37,4 +40,9 @@
     <br>
     <p class="elemento1">Relativo al primer elemento</p>
     <p id="elemento2">Relativo al segundo elemento</p>
+     @keyframes perrito.gif {
+                0% {opacity:0; }
+                50% {opacity: 1; }
+                100% {opacity:0; }
+            }
 </body>
